@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name skiselev_footprints)(type KiCad)(uri ${KIPRJMOD}/libraries/my_kicad_library/My_Components.pretty)(options "")(descr ""))
+  (lib (name ISA_DualUART)(type KiCad)(uri ${KIPRJMOD}/libraries/custom_libs/footprints/ISA_DualUART.pretty)(options "")(descr ""))
+)
