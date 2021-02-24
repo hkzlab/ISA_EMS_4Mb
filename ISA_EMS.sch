@@ -1715,158 +1715,651 @@ Logic taken from https://www.lo-tech.co.uk/wiki/Lo-tech_ISA_ROM_Board
 $Comp
 L Memory_RAM:AS6C4008-55PCN U3
 U 1 1 60570A36
-P 6600 2750
-F 0 "U3" H 6200 3800 50  0000 C CNN
-F 1 "AS6C4008-55PCN" H 7000 3800 50  0000 C CNN
-F 2 "Package_DIP:DIP-32_W15.24mm" H 6600 2850 50  0001 C CNN
-F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 6600 2850 50  0001 C CNN
-	1    6600 2750
+P 2400 2500
+F 0 "U3" H 2000 3550 50  0000 C CNN
+F 1 "AS6C4008-55PCN" H 2800 3550 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 2400 2600 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 2400 2600 50  0001 C CNN
+	1    2400 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60573E15
-P 6600 3950
-F 0 "#PWR?" H 6600 3700 50  0001 C CNN
-F 1 "GND" H 6605 3777 50  0000 C CNN
-F 2 "" H 6600 3950 50  0001 C CNN
-F 3 "" H 6600 3950 50  0001 C CNN
-	1    6600 3950
+P 2400 3700
+F 0 "#PWR?" H 2400 3450 50  0001 C CNN
+F 1 "GND" H 2405 3527 50  0000 C CNN
+F 2 "" H 2400 3700 50  0001 C CNN
+F 3 "" H 2400 3700 50  0001 C CNN
+	1    2400 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 3850 6600 3950
+	2400 3600 2400 3700
 $Comp
 L power:VCC #PWR?
 U 1 1 60588946
-P 6600 1550
-F 0 "#PWR?" H 6600 1400 50  0001 C CNN
-F 1 "VCC" H 6615 1723 50  0000 C CNN
-F 2 "" H 6600 1550 50  0001 C CNN
-F 3 "" H 6600 1550 50  0001 C CNN
-	1    6600 1550
+P 2400 1300
+F 0 "#PWR?" H 2400 1150 50  0001 C CNN
+F 1 "VCC" H 2415 1473 50  0000 C CNN
+F 2 "" H 2400 1300 50  0001 C CNN
+F 3 "" H 2400 1300 50  0001 C CNN
+	1    2400 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 1550 6600 1650
+	2400 1300 2400 1400
 Wire Wire Line
-	6100 1850 5650 1850
+	1900 1600 1450 1600
 Wire Wire Line
-	6100 1950 5650 1950
+	1900 1700 1450 1700
 Wire Wire Line
-	6100 2050 5650 2050
+	1900 1800 1450 1800
 Wire Wire Line
-	6100 2150 5650 2150
+	1900 1900 1450 1900
 Wire Wire Line
-	6100 2250 5650 2250
+	1900 2000 1450 2000
 Wire Wire Line
-	6100 2350 5650 2350
+	1900 2100 1450 2100
 Wire Wire Line
-	6100 2450 5650 2450
+	1900 2200 1450 2200
 Wire Wire Line
-	6100 2550 5650 2550
+	1900 2300 1450 2300
 Wire Wire Line
-	6100 2650 5650 2650
+	1900 2400 1450 2400
 Wire Wire Line
-	6100 2750 5650 2750
+	1900 2500 1450 2500
 Wire Wire Line
-	6100 2850 5650 2850
+	1900 2600 1450 2600
 Wire Wire Line
-	6100 2950 5650 2950
+	1900 2700 1450 2700
 Wire Wire Line
-	6100 3050 5650 3050
+	1900 2800 1450 2800
 Wire Wire Line
-	6100 3150 5650 3150
-Text Label 5650 1850 0    50   ~ 0
+	1900 2900 1450 2900
+Text Label 1450 1600 0    50   ~ 0
 A0
-Text Label 5650 1950 0    50   ~ 0
+Text Label 1450 1700 0    50   ~ 0
 A1
-Text Label 5650 2050 0    50   ~ 0
+Text Label 1450 1800 0    50   ~ 0
 A2
-Text Label 5650 2150 0    50   ~ 0
+Text Label 1450 1900 0    50   ~ 0
 A3
-Text Label 5650 2250 0    50   ~ 0
+Text Label 1450 2000 0    50   ~ 0
 A4
-Text Label 5650 2350 0    50   ~ 0
+Text Label 1450 2100 0    50   ~ 0
 A5
-Text Label 5650 2450 0    50   ~ 0
+Text Label 1450 2200 0    50   ~ 0
 A6
-Text Label 5650 2550 0    50   ~ 0
+Text Label 1450 2300 0    50   ~ 0
 A7
-Text Label 5650 2650 0    50   ~ 0
+Text Label 1450 2400 0    50   ~ 0
 A8
-Text Label 5650 2750 0    50   ~ 0
+Text Label 1450 2500 0    50   ~ 0
 A9
-Text Label 5650 2850 0    50   ~ 0
+Text Label 1450 2600 0    50   ~ 0
 A10
-Text Label 5650 2950 0    50   ~ 0
+Text Label 1450 2700 0    50   ~ 0
 A11
-Text Label 5650 3050 0    50   ~ 0
+Text Label 1450 2800 0    50   ~ 0
 A12
-Text Label 5650 3150 0    50   ~ 0
+Text Label 1450 2900 0    50   ~ 0
 A13
 Wire Wire Line
-	6100 3250 5200 3250
+	1900 3000 1000 3000
 Wire Wire Line
-	6100 3350 5200 3350
+	1900 3100 1000 3100
 Wire Wire Line
-	6100 3450 5200 3450
+	1900 3200 1000 3200
 Wire Wire Line
-	6100 3550 5200 3550
+	1900 3300 1000 3300
 Wire Wire Line
-	6100 3650 5200 3650
-Text Label 5200 3250 0    50   ~ 0
+	1900 3400 1000 3400
+Text Label 1000 3000 0    50   ~ 0
 RAM-A14
-Text Label 5200 3350 0    50   ~ 0
+Text Label 1000 3100 0    50   ~ 0
 RAM-A15
-Text Label 5200 3450 0    50   ~ 0
+Text Label 1000 3200 0    50   ~ 0
 RAM-A16
-Text Label 5200 3550 0    50   ~ 0
+Text Label 1000 3300 0    50   ~ 0
 RAM-A17
-Text Label 5200 3650 0    50   ~ 0
+Text Label 1000 3400 0    50   ~ 0
 RAM-A18
 Wire Wire Line
-	7100 1850 7700 1850
+	2900 1600 3500 1600
 Wire Wire Line
-	7100 1950 7700 1950
+	2900 1700 3500 1700
 Wire Wire Line
-	7100 2050 7700 2050
+	2900 1800 3500 1800
 Wire Wire Line
-	7100 2150 7700 2150
+	2900 1900 3500 1900
 Wire Wire Line
-	7100 2250 7700 2250
+	2900 2000 3500 2000
 Wire Wire Line
-	7100 2350 7700 2350
+	2900 2100 3500 2100
 Wire Wire Line
-	7100 2450 7700 2450
+	2900 2200 3500 2200
 Wire Wire Line
-	7100 2550 7700 2550
-Text Label 7700 1850 2    50   ~ 0
+	2900 2300 3500 2300
+Text Label 3500 1600 2    50   ~ 0
 DB0
-Text Label 7700 1950 2    50   ~ 0
+Text Label 3500 1700 2    50   ~ 0
 DB1
-Text Label 7700 2050 2    50   ~ 0
+Text Label 3500 1800 2    50   ~ 0
 DB2
-Text Label 7700 2150 2    50   ~ 0
+Text Label 3500 1900 2    50   ~ 0
 DB3
-Text Label 7700 2250 2    50   ~ 0
+Text Label 3500 2000 2    50   ~ 0
 DB4
-Text Label 7700 2350 2    50   ~ 0
+Text Label 3500 2100 2    50   ~ 0
 DB5
-Text Label 7700 2450 2    50   ~ 0
+Text Label 3500 2200 2    50   ~ 0
 DB6
-Text Label 7700 2550 2    50   ~ 0
+Text Label 3500 2300 2    50   ~ 0
 DB7
 Wire Wire Line
-	7100 2850 7700 2850
+	2900 2600 3500 2600
 Wire Wire Line
-	7100 2950 7700 2950
+	2900 2700 3500 2700
 Wire Wire Line
-	7100 3050 7700 3050
-Text Label 7700 2850 2    50   ~ 0
+	2900 2800 3500 2800
+Text Label 3500 2600 2    50   ~ 0
 ~RAM-CS0
-Text Label 7700 2950 2    50   ~ 0
+Text Label 3500 2700 2    50   ~ 0
 ~MEMR
-Text Label 7700 3050 2    50   ~ 0
+Text Label 3500 2800 2    50   ~ 0
 ~MEMW
+$Comp
+L Memory_RAM:AS6C4008-55PCN U4
+U 1 1 60A5FE0B
+P 5100 2500
+F 0 "U4" H 4700 3550 50  0000 C CNN
+F 1 "AS6C4008-55PCN" H 5500 3550 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 5100 2600 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 5100 2600 50  0001 C CNN
+	1    5100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A603B5
+P 5100 3700
+F 0 "#PWR?" H 5100 3450 50  0001 C CNN
+F 1 "GND" H 5105 3527 50  0000 C CNN
+F 2 "" H 5100 3700 50  0001 C CNN
+F 3 "" H 5100 3700 50  0001 C CNN
+	1    5100 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3600 5100 3700
+$Comp
+L power:VCC #PWR?
+U 1 1 60A603C0
+P 5100 1300
+F 0 "#PWR?" H 5100 1150 50  0001 C CNN
+F 1 "VCC" H 5115 1473 50  0000 C CNN
+F 2 "" H 5100 1300 50  0001 C CNN
+F 3 "" H 5100 1300 50  0001 C CNN
+	1    5100 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1300 5100 1400
+Wire Wire Line
+	4600 1600 4150 1600
+Wire Wire Line
+	4600 1700 4150 1700
+Wire Wire Line
+	4600 1800 4150 1800
+Wire Wire Line
+	4600 1900 4150 1900
+Wire Wire Line
+	4600 2000 4150 2000
+Wire Wire Line
+	4600 2100 4150 2100
+Wire Wire Line
+	4600 2200 4150 2200
+Wire Wire Line
+	4600 2300 4150 2300
+Wire Wire Line
+	4600 2400 4150 2400
+Wire Wire Line
+	4600 2500 4150 2500
+Wire Wire Line
+	4600 2600 4150 2600
+Wire Wire Line
+	4600 2700 4150 2700
+Wire Wire Line
+	4600 2800 4150 2800
+Wire Wire Line
+	4600 2900 4150 2900
+Text Label 4150 1600 0    50   ~ 0
+A0
+Text Label 4150 1700 0    50   ~ 0
+A1
+Text Label 4150 1800 0    50   ~ 0
+A2
+Text Label 4150 1900 0    50   ~ 0
+A3
+Text Label 4150 2000 0    50   ~ 0
+A4
+Text Label 4150 2100 0    50   ~ 0
+A5
+Text Label 4150 2200 0    50   ~ 0
+A6
+Text Label 4150 2300 0    50   ~ 0
+A7
+Text Label 4150 2400 0    50   ~ 0
+A8
+Text Label 4150 2500 0    50   ~ 0
+A9
+Text Label 4150 2600 0    50   ~ 0
+A10
+Text Label 4150 2700 0    50   ~ 0
+A11
+Text Label 4150 2800 0    50   ~ 0
+A12
+Text Label 4150 2900 0    50   ~ 0
+A13
+Wire Wire Line
+	4600 3000 3700 3000
+Wire Wire Line
+	4600 3100 3700 3100
+Wire Wire Line
+	4600 3200 3700 3200
+Wire Wire Line
+	4600 3300 3700 3300
+Wire Wire Line
+	4600 3400 3700 3400
+Text Label 3700 3000 0    50   ~ 0
+RAM-A14
+Text Label 3700 3100 0    50   ~ 0
+RAM-A15
+Text Label 3700 3200 0    50   ~ 0
+RAM-A16
+Text Label 3700 3300 0    50   ~ 0
+RAM-A17
+Text Label 3700 3400 0    50   ~ 0
+RAM-A18
+Wire Wire Line
+	5600 1600 6200 1600
+Wire Wire Line
+	5600 1700 6200 1700
+Wire Wire Line
+	5600 1800 6200 1800
+Wire Wire Line
+	5600 1900 6200 1900
+Wire Wire Line
+	5600 2000 6200 2000
+Wire Wire Line
+	5600 2100 6200 2100
+Wire Wire Line
+	5600 2200 6200 2200
+Wire Wire Line
+	5600 2300 6200 2300
+Text Label 6200 1600 2    50   ~ 0
+DB0
+Text Label 6200 1700 2    50   ~ 0
+DB1
+Text Label 6200 1800 2    50   ~ 0
+DB2
+Text Label 6200 1900 2    50   ~ 0
+DB3
+Text Label 6200 2000 2    50   ~ 0
+DB4
+Text Label 6200 2100 2    50   ~ 0
+DB5
+Text Label 6200 2200 2    50   ~ 0
+DB6
+Text Label 6200 2300 2    50   ~ 0
+DB7
+Wire Wire Line
+	5600 2600 6200 2600
+Wire Wire Line
+	5600 2700 6200 2700
+Wire Wire Line
+	5600 2800 6200 2800
+Text Label 6200 2600 2    50   ~ 0
+~RAM-CS1
+Text Label 6200 2700 2    50   ~ 0
+~MEMR
+Text Label 6200 2800 2    50   ~ 0
+~MEMW
+$Comp
+L Memory_RAM:AS6C4008-55PCN U5
+U 1 1 60A84A1A
+P 7800 2500
+F 0 "U5" H 7400 3550 50  0000 C CNN
+F 1 "AS6C4008-55PCN" H 8200 3550 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 7800 2600 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 7800 2600 50  0001 C CNN
+	1    7800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A8502C
+P 7800 3700
+F 0 "#PWR?" H 7800 3450 50  0001 C CNN
+F 1 "GND" H 7805 3527 50  0000 C CNN
+F 2 "" H 7800 3700 50  0001 C CNN
+F 3 "" H 7800 3700 50  0001 C CNN
+	1    7800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3600 7800 3700
+$Comp
+L power:VCC #PWR?
+U 1 1 60A85037
+P 7800 1300
+F 0 "#PWR?" H 7800 1150 50  0001 C CNN
+F 1 "VCC" H 7815 1473 50  0000 C CNN
+F 2 "" H 7800 1300 50  0001 C CNN
+F 3 "" H 7800 1300 50  0001 C CNN
+	1    7800 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1300 7800 1400
+Wire Wire Line
+	7300 1600 6850 1600
+Wire Wire Line
+	7300 1700 6850 1700
+Wire Wire Line
+	7300 1800 6850 1800
+Wire Wire Line
+	7300 1900 6850 1900
+Wire Wire Line
+	7300 2000 6850 2000
+Wire Wire Line
+	7300 2100 6850 2100
+Wire Wire Line
+	7300 2200 6850 2200
+Wire Wire Line
+	7300 2300 6850 2300
+Wire Wire Line
+	7300 2400 6850 2400
+Wire Wire Line
+	7300 2500 6850 2500
+Wire Wire Line
+	7300 2600 6850 2600
+Wire Wire Line
+	7300 2700 6850 2700
+Wire Wire Line
+	7300 2800 6850 2800
+Wire Wire Line
+	7300 2900 6850 2900
+Text Label 6850 1600 0    50   ~ 0
+A0
+Text Label 6850 1700 0    50   ~ 0
+A1
+Text Label 6850 1800 0    50   ~ 0
+A2
+Text Label 6850 1900 0    50   ~ 0
+A3
+Text Label 6850 2000 0    50   ~ 0
+A4
+Text Label 6850 2100 0    50   ~ 0
+A5
+Text Label 6850 2200 0    50   ~ 0
+A6
+Text Label 6850 2300 0    50   ~ 0
+A7
+Text Label 6850 2400 0    50   ~ 0
+A8
+Text Label 6850 2500 0    50   ~ 0
+A9
+Text Label 6850 2600 0    50   ~ 0
+A10
+Text Label 6850 2700 0    50   ~ 0
+A11
+Text Label 6850 2800 0    50   ~ 0
+A12
+Text Label 6850 2900 0    50   ~ 0
+A13
+Wire Wire Line
+	7300 3000 6400 3000
+Wire Wire Line
+	7300 3100 6400 3100
+Wire Wire Line
+	7300 3200 6400 3200
+Wire Wire Line
+	7300 3300 6400 3300
+Wire Wire Line
+	7300 3400 6400 3400
+Text Label 6400 3000 0    50   ~ 0
+RAM-A14
+Text Label 6400 3100 0    50   ~ 0
+RAM-A15
+Text Label 6400 3200 0    50   ~ 0
+RAM-A16
+Text Label 6400 3300 0    50   ~ 0
+RAM-A17
+Text Label 6400 3400 0    50   ~ 0
+RAM-A18
+Wire Wire Line
+	8300 1600 8900 1600
+Wire Wire Line
+	8300 1700 8900 1700
+Wire Wire Line
+	8300 1800 8900 1800
+Wire Wire Line
+	8300 1900 8900 1900
+Wire Wire Line
+	8300 2000 8900 2000
+Wire Wire Line
+	8300 2100 8900 2100
+Wire Wire Line
+	8300 2200 8900 2200
+Wire Wire Line
+	8300 2300 8900 2300
+Text Label 8900 1600 2    50   ~ 0
+DB0
+Text Label 8900 1700 2    50   ~ 0
+DB1
+Text Label 8900 1800 2    50   ~ 0
+DB2
+Text Label 8900 1900 2    50   ~ 0
+DB3
+Text Label 8900 2000 2    50   ~ 0
+DB4
+Text Label 8900 2100 2    50   ~ 0
+DB5
+Text Label 8900 2200 2    50   ~ 0
+DB6
+Text Label 8900 2300 2    50   ~ 0
+DB7
+Wire Wire Line
+	8300 2600 8900 2600
+Wire Wire Line
+	8300 2700 8900 2700
+Wire Wire Line
+	8300 2800 8900 2800
+Text Label 8900 2600 2    50   ~ 0
+~RAM-CS2
+Text Label 8900 2700 2    50   ~ 0
+~MEMR
+Text Label 8900 2800 2    50   ~ 0
+~MEMW
+$Comp
+L Memory_RAM:AS6C4008-55PCN U6
+U 1 1 60A8507E
+P 10500 2500
+F 0 "U6" H 10100 3550 50  0000 C CNN
+F 1 "AS6C4008-55PCN" H 10900 3550 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 10500 2600 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 10500 2600 50  0001 C CNN
+	1    10500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A85088
+P 10500 3700
+F 0 "#PWR?" H 10500 3450 50  0001 C CNN
+F 1 "GND" H 10505 3527 50  0000 C CNN
+F 2 "" H 10500 3700 50  0001 C CNN
+F 3 "" H 10500 3700 50  0001 C CNN
+	1    10500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 3600 10500 3700
+$Comp
+L power:VCC #PWR?
+U 1 1 60A85093
+P 10500 1300
+F 0 "#PWR?" H 10500 1150 50  0001 C CNN
+F 1 "VCC" H 10515 1473 50  0000 C CNN
+F 2 "" H 10500 1300 50  0001 C CNN
+F 3 "" H 10500 1300 50  0001 C CNN
+	1    10500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 1300 10500 1400
+Wire Wire Line
+	10000 1600 9550 1600
+Wire Wire Line
+	10000 1700 9550 1700
+Wire Wire Line
+	10000 1800 9550 1800
+Wire Wire Line
+	10000 1900 9550 1900
+Wire Wire Line
+	10000 2000 9550 2000
+Wire Wire Line
+	10000 2100 9550 2100
+Wire Wire Line
+	10000 2200 9550 2200
+Wire Wire Line
+	10000 2300 9550 2300
+Wire Wire Line
+	10000 2400 9550 2400
+Wire Wire Line
+	10000 2500 9550 2500
+Wire Wire Line
+	10000 2600 9550 2600
+Wire Wire Line
+	10000 2700 9550 2700
+Wire Wire Line
+	10000 2800 9550 2800
+Wire Wire Line
+	10000 2900 9550 2900
+Text Label 9550 1600 0    50   ~ 0
+A0
+Text Label 9550 1700 0    50   ~ 0
+A1
+Text Label 9550 1800 0    50   ~ 0
+A2
+Text Label 9550 1900 0    50   ~ 0
+A3
+Text Label 9550 2000 0    50   ~ 0
+A4
+Text Label 9550 2100 0    50   ~ 0
+A5
+Text Label 9550 2200 0    50   ~ 0
+A6
+Text Label 9550 2300 0    50   ~ 0
+A7
+Text Label 9550 2400 0    50   ~ 0
+A8
+Text Label 9550 2500 0    50   ~ 0
+A9
+Text Label 9550 2600 0    50   ~ 0
+A10
+Text Label 9550 2700 0    50   ~ 0
+A11
+Text Label 9550 2800 0    50   ~ 0
+A12
+Text Label 9550 2900 0    50   ~ 0
+A13
+Wire Wire Line
+	10000 3000 9100 3000
+Wire Wire Line
+	10000 3100 9100 3100
+Wire Wire Line
+	10000 3200 9100 3200
+Wire Wire Line
+	10000 3300 9100 3300
+Wire Wire Line
+	10000 3400 9100 3400
+Text Label 9100 3000 0    50   ~ 0
+RAM-A14
+Text Label 9100 3100 0    50   ~ 0
+RAM-A15
+Text Label 9100 3200 0    50   ~ 0
+RAM-A16
+Text Label 9100 3300 0    50   ~ 0
+RAM-A17
+Text Label 9100 3400 0    50   ~ 0
+RAM-A18
+Wire Wire Line
+	11000 1600 11600 1600
+Wire Wire Line
+	11000 1700 11600 1700
+Wire Wire Line
+	11000 1800 11600 1800
+Wire Wire Line
+	11000 1900 11600 1900
+Wire Wire Line
+	11000 2000 11600 2000
+Wire Wire Line
+	11000 2100 11600 2100
+Wire Wire Line
+	11000 2200 11600 2200
+Wire Wire Line
+	11000 2300 11600 2300
+Text Label 11600 1600 2    50   ~ 0
+DB0
+Text Label 11600 1700 2    50   ~ 0
+DB1
+Text Label 11600 1800 2    50   ~ 0
+DB2
+Text Label 11600 1900 2    50   ~ 0
+DB3
+Text Label 11600 2000 2    50   ~ 0
+DB4
+Text Label 11600 2100 2    50   ~ 0
+DB5
+Text Label 11600 2200 2    50   ~ 0
+DB6
+Text Label 11600 2300 2    50   ~ 0
+DB7
+Wire Wire Line
+	11000 2600 11600 2600
+Wire Wire Line
+	11000 2700 11600 2700
+Wire Wire Line
+	11000 2800 11600 2800
+Text Label 11600 2600 2    50   ~ 0
+~RAM-CS3
+Text Label 11600 2700 2    50   ~ 0
+~MEMR
+Text Label 11600 2800 2    50   ~ 0
+~MEMW
+$Comp
+L 74xx:74HCT688 U?
+U 1 1 60AF7877
+P 9850 6800
+F 0 "U?" H 10200 6900 50  0000 L CNN
+F 1 "74HCT688" H 10200 6800 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 9850 6800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd54hc688.pdf" H 9850 6800 50  0001 C CNN
+	1    9850 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT688 U?
+U 1 1 60AF8544
+P 11900 6900
+F 0 "U?" H 12250 7000 50  0000 L CNN
+F 1 "74HCT688" H 12250 6900 50  0000 L CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 11900 6900 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd54hc688.pdf" H 11900 6900 50  0001 C CNN
+	1    11900 6900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
