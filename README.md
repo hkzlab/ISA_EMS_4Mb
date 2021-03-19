@@ -106,6 +106,6 @@ TODO
 
 ## Credits
 
-Thanks to [lo-tech.co.uk](https://www.lo-tech.co.uk/) for having published their schematics
-Thanks to [Sergey](http://www.malinov.com/Home/sergeys-projects) for all his projects!
+- Thanks to [lo-tech.co.uk](https://www.lo-tech.co.uk/) for having published their schematics
+- Thanks to [Sergey](http://www.malinov.com/Home/sergeys-projects) for all his projects!
 
