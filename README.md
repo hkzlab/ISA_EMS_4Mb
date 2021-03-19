@@ -100,6 +100,8 @@ You need a **memory manager** to use this board. The original `LTEMM` driver pro
 
 All ICs are in DIP package.
 
+If you don't need the expansion ROM feature, you can omit C19, C20, U1, U2, RN1, R1, R2 and J3.
+
 TODO
 
 ## Credits
