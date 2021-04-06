@@ -105,7 +105,7 @@ If you don't need the expansion ROM feature, you can omit C19, C20, U1, U2, RN1,
 - U1, U7, U8: 74HCT688
 - U2: SST39SF010
 - U3, U4, U5, U6, U13, U14. U15, U16: AS6C4008
-- U11: 74HCT04
+- U11: 74HC04 (HCT is fine too)
 - U9: 74HCT139
 - U10: 74HCT32
 - U12: 74ACT245
@@ -115,8 +115,8 @@ If you don't need the expansion ROM feature, you can omit C19, C20, U1, U2, RN1,
 - RN2: res. network, 10k, bussed, 5 pins
 - RN3: res. network, 10k, bussed, 9 pins.
 - R1, R2: 10k resistor
-- R3: ~1k resistor (depends on the type of LED mounted on D1)
-- D1: 3.0mm LED
+- R3: ~470-1k resistor (depends on the type of LED mounted on D1 and desired brightness)
+- D1: 3.0mm or 5.0mm LED
 - J2 2x4 2.5mm breakable header
 - J3 2x7 2.5mm breakable header
 - C5, C6: 10uF / 50v electrolytic caps
