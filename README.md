@@ -104,7 +104,7 @@ If you don't need the expansion ROM feature, you can omit C19, C20, U1, U2, RN1,
 
 - U1, U7, U8: 74HCT688
 - U2: SST39SF010
-- U3, U4, U5, U6, U13, U14. U15, U16: AS6C4008
+- U3, U4, U5, U6, U13, U14. U15, U16: AS6C4008 (You don't need to fill all sockets: fit as much memory as you need starting from socket 1!)
 - U11: 74HC04 (HCT is fine too)
 - U9: 74HCT139
 - U10: 74HCT32
