@@ -4,9 +4,9 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title "EMS + ROM ISA Adapter"
+Title "EMS 4M ISA Adapter"
 Date ""
-Rev "1.0"
+Rev "2.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -810,776 +810,10 @@ Wire Wire Line
 Wire Wire Line
 	2200 14250 2200 14400
 Connection ~ 2200 14400
-Wire Notes Line
-	18650 5350 18650 14700
-Wire Notes Line
-	18650 14700 22700 14700
-Wire Notes Line
-	22700 14700 22700 5350
-Wire Notes Line
-	22700 5350 18650 5350
-$Comp
-L Device:C_Small C19
-U 1 1 67C001EA
-P 3050 14150
-F 0 "C19" H 3142 14196 50  0000 L CNN
-F 1 "100nF" H 3142 14105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 3050 14150 50  0001 C CNN
-F 3 "~" H 3050 14150 50  0001 C CNN
-	1    3050 14150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C20
-U 1 1 67C051F6
-P 3450 14150
-F 0 "C20" H 3542 14196 50  0000 L CNN
-F 1 "100nF" H 3542 14105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 3450 14150 50  0001 C CNN
-F 3 "~" H 3450 14150 50  0001 C CNN
-	1    3450 14150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 13850 3050 13850
-Wire Wire Line
-	3450 13850 3450 14050
 Connection ~ 2650 13850
-Wire Wire Line
-	3450 14250 3450 14400
 Wire Wire Line
 	2200 14400 2650 14400
 Connection ~ 2650 14400
-Wire Wire Line
-	2650 14400 3050 14400
-Wire Wire Line
-	3050 14050 3050 13850
-Connection ~ 3050 13850
-Wire Wire Line
-	3050 13850 3450 13850
-Wire Wire Line
-	3050 14250 3050 14400
-Connection ~ 3050 14400
-Wire Wire Line
-	3050 14400 3450 14400
-$Comp
-L Memory_Flash:SST39SF040 U2
-U 1 1 67F271D5
-P 21500 7100
-F 0 "U2" H 21500 8581 50  0000 C CNN
-F 1 "SST39SF040" H 21500 8490 50  0000 C CNN
-F 2 "Package_DIP:DIP-32_W15.24mm_LongPads" H 21500 7400 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf" H 21500 7400 50  0001 C CNN
-	1    21500 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x07_Odd_Even J3
-U 1 1 67F2B735
-P 19400 9550
-F 0 "J3" H 19450 10067 50  0000 C CNN
-F 1 "ROM Config" H 19450 9976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 19400 9550 50  0001 C CNN
-F 3 "~" H 19400 9550 50  0001 C CNN
-	1    19400 9550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 67F3420E
-P 19800 9050
-F 0 "R1" H 19859 9096 50  0000 L CNN
-F 1 "10k" H 19859 9005 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 19800 9050 50  0001 C CNN
-F 3 "~" H 19800 9050 50  0001 C CNN
-	1    19800 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 67F37945
-P 20050 9050
-F 0 "R2" H 20109 9096 50  0000 L CNN
-F 1 "10k" H 20109 9005 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 20050 9050 50  0001 C CNN
-F 3 "~" H 20050 9050 50  0001 C CNN
-	1    20050 9050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	22100 5900 22550 5900
-Wire Wire Line
-	22100 6000 22550 6000
-Wire Wire Line
-	22100 6100 22550 6100
-Wire Wire Line
-	22100 6200 22550 6200
-Wire Wire Line
-	22100 6300 22550 6300
-Wire Wire Line
-	22100 6400 22550 6400
-Wire Wire Line
-	22100 6500 22550 6500
-Wire Wire Line
-	22100 6600 22550 6600
-Text Label 22550 5900 2    50   ~ 0
-D0
-Text Label 22550 6000 2    50   ~ 0
-D1
-Text Label 22550 6100 2    50   ~ 0
-D2
-Text Label 22550 6200 2    50   ~ 0
-D3
-Text Label 22550 6300 2    50   ~ 0
-D4
-Text Label 22550 6400 2    50   ~ 0
-D5
-Text Label 22550 6500 2    50   ~ 0
-D6
-Text Label 22550 6600 2    50   ~ 0
-D7
-Wire Wire Line
-	20900 5900 20600 5900
-Wire Wire Line
-	20900 6000 20600 6000
-Wire Wire Line
-	20900 6100 20600 6100
-Wire Wire Line
-	20900 6200 20600 6200
-Wire Wire Line
-	20900 6300 20600 6300
-Wire Wire Line
-	20900 6400 20600 6400
-Wire Wire Line
-	20900 6500 20600 6500
-Wire Wire Line
-	20900 6600 20600 6600
-Wire Wire Line
-	20900 6700 20600 6700
-Wire Wire Line
-	20900 6800 20600 6800
-Wire Wire Line
-	20900 6900 20600 6900
-Wire Wire Line
-	20900 7000 20600 7000
-Wire Wire Line
-	20900 7100 20600 7100
-Wire Wire Line
-	20900 7200 20600 7200
-Wire Wire Line
-	20900 7300 20600 7300
-Wire Wire Line
-	20900 7500 20600 7500
-Wire Wire Line
-	20900 7600 20600 7600
-Wire Wire Line
-	20900 7700 20600 7700
-Text Label 20600 5900 0    50   ~ 0
-A0
-Text Label 20600 6000 0    50   ~ 0
-A1
-Text Label 20600 6100 0    50   ~ 0
-A2
-Text Label 20600 6200 0    50   ~ 0
-A3
-Text Label 20600 6300 0    50   ~ 0
-A4
-Text Label 20600 6400 0    50   ~ 0
-A5
-Text Label 20600 6500 0    50   ~ 0
-A6
-Text Label 20600 6600 0    50   ~ 0
-A7
-Text Label 20600 6700 0    50   ~ 0
-A8
-Text Label 20600 6800 0    50   ~ 0
-A9
-Text Label 20600 6900 0    50   ~ 0
-A10
-Text Label 20600 7000 0    50   ~ 0
-A11
-Text Label 20600 7100 0    50   ~ 0
-A12
-Text Label 20600 7200 0    50   ~ 0
-A13
-Text Label 20600 7300 0    50   ~ 0
-A14
-Text Label 20450 7400 0    50   ~ 0
-FLASH_A15
-Wire Wire Line
-	20600 7500 20600 7600
-Wire Wire Line
-	20600 7600 20600 7700
-Connection ~ 20600 7600
-$Comp
-L power:GND #PWR0155
-U 1 1 6A7BAEB5
-P 20450 7600
-F 0 "#PWR0155" H 20450 7350 50  0001 C CNN
-F 1 "GND" H 20455 7427 50  0000 C CNN
-F 2 "" H 20450 7600 50  0001 C CNN
-F 3 "" H 20450 7600 50  0001 C CNN
-	1    20450 7600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20450 7600 20600 7600
-Wire Wire Line
-	20900 7900 20450 7900
-Text Label 20450 7900 0    50   ~ 0
-~MEMW
-Wire Wire Line
-	20900 8100 20450 8100
-Wire Wire Line
-	20900 8200 20450 8200
-Text Label 20450 8100 0    50   ~ 0
-~ROM-CS
-Text Label 20450 8200 0    50   ~ 0
-~MEMR
-$Comp
-L power:VCC #PWR0156
-U 1 1 6AB22759
-P 20150 10800
-F 0 "#PWR0156" H 20150 10650 50  0001 C CNN
-F 1 "VCC" H 20165 10973 50  0000 C CNN
-F 2 "" H 20150 10800 50  0001 C CNN
-F 3 "" H 20150 10800 50  0001 C CNN
-	1    20150 10800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0157
-U 1 1 6AB29508
-P 20150 13400
-F 0 "#PWR0157" H 20150 13150 50  0001 C CNN
-F 1 "GND" H 20155 13227 50  0000 C CNN
-F 2 "" H 20150 13400 50  0001 C CNN
-F 3 "" H 20150 13400 50  0001 C CNN
-	1    20150 13400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20150 10900 20150 10800
-Wire Wire Line
-	20150 13300 20150 13400
-$Comp
-L 74xx:74HCT688 U1
-U 1 1 67F29207
-P 20150 12100
-F 0 "U1" H 20500 12200 50  0000 L CNN
-F 1 "74HCT688" H 20500 12100 50  0000 L CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 20150 12100 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/cd54hc688.pdf" H 20150 12100 50  0001 C CNN
-	1    20150 12100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20450 7400 20900 7400
-Wire Wire Line
-	19700 9250 19800 9250
-Wire Wire Line
-	19800 9250 19800 9150
-Wire Wire Line
-	19700 9350 20050 9350
-Wire Wire Line
-	20050 9350 20050 9150
-Wire Wire Line
-	19800 8950 19800 8850
-Wire Wire Line
-	19800 8850 19950 8850
-Wire Wire Line
-	20050 8850 20050 8950
-$Comp
-L power:GND #PWR0158
-U 1 1 6B480D00
-P 19600 8800
-F 0 "#PWR0158" H 19600 8550 50  0001 C CNN
-F 1 "GND" H 19605 8627 50  0000 C CNN
-F 2 "" H 19600 8800 50  0001 C CNN
-F 3 "" H 19600 8800 50  0001 C CNN
-	1    19600 8800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19600 8800 19600 8750
-Wire Wire Line
-	19600 8750 19950 8750
-Wire Wire Line
-	19950 8750 19950 8850
-Connection ~ 19950 8850
-Wire Wire Line
-	19950 8850 20050 8850
-Wire Wire Line
-	19200 9250 19150 9250
-Wire Wire Line
-	19150 9250 19150 9350
-Wire Wire Line
-	19150 9350 19200 9350
-Wire Wire Line
-	19150 9350 18850 9350
-Connection ~ 19150 9350
-Text Label 18850 9350 0    50   ~ 0
-A15
-Wire Wire Line
-	19200 9450 19050 9450
-Wire Wire Line
-	19200 9550 19050 9550
-Wire Wire Line
-	19200 9650 19050 9650
-Wire Wire Line
-	19200 9750 19050 9750
-Wire Wire Line
-	19200 9850 19050 9850
-Wire Wire Line
-	19050 9450 19050 9550
-Wire Wire Line
-	19050 9550 19050 9650
-Connection ~ 19050 9550
-Wire Wire Line
-	19050 9650 19050 9750
-Connection ~ 19050 9650
-Wire Wire Line
-	19050 9750 19050 9850
-Connection ~ 19050 9750
-$Comp
-L power:GND #PWR0159
-U 1 1 6BEE9BB7
-P 18900 9700
-F 0 "#PWR0159" H 18900 9450 50  0001 C CNN
-F 1 "GND" H 18905 9527 50  0000 C CNN
-F 2 "" H 18900 9700 50  0001 C CNN
-F 3 "" H 18900 9700 50  0001 C CNN
-	1    18900 9700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18900 9700 18900 9650
-Wire Wire Line
-	18900 9650 19050 9650
-Wire Wire Line
-	19700 9850 19850 9850
-Wire Wire Line
-	19850 9850 19850 10050
-Wire Wire Line
-	19700 9750 19950 9750
-Wire Wire Line
-	19950 9750 19950 10050
-Wire Wire Line
-	19700 9650 20050 9650
-Wire Wire Line
-	20050 9650 20050 10050
-Wire Wire Line
-	19700 9550 20150 9550
-Wire Wire Line
-	20150 9550 20150 10050
-Wire Wire Line
-	19700 9450 20250 9450
-Wire Wire Line
-	20250 9450 20250 10050
-$Comp
-L power:VCC #PWR0160
-U 1 1 6CDED80A
-P 20650 10300
-F 0 "#PWR0160" H 20650 10150 50  0001 C CNN
-F 1 "VCC" H 20665 10473 50  0000 C CNN
-F 2 "" H 20650 10300 50  0001 C CNN
-F 3 "" H 20650 10300 50  0001 C CNN
-	1    20650 10300
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	20250 10450 20250 10550
-Wire Wire Line
-	20250 10550 20650 10550
-Wire Wire Line
-	20650 10550 20650 10300
-$Comp
-L Device:R_Network05 RN1
-U 1 1 6CFBCF64
-P 20050 10250
-F 0 "RN1" H 19770 10204 50  0000 R CNN
-F 1 "10k" H 19770 10295 50  0000 R CNN
-F 2 "Resistor_THT:R_Array_SIP6" V 20425 10250 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 20050 10250 50  0001 C CNN
-	1    20050 10250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	19800 9250 20700 9250
-Connection ~ 19800 9250
-Wire Wire Line
-	20050 9350 20700 9350
-Connection ~ 20050 9350
-Wire Wire Line
-	20250 9450 20700 9450
-Connection ~ 20250 9450
-Wire Wire Line
-	20150 9550 20700 9550
-Connection ~ 20150 9550
-Wire Wire Line
-	20050 9650 20700 9650
-Connection ~ 20050 9650
-Wire Wire Line
-	19950 9750 20700 9750
-Connection ~ 19950 9750
-Wire Wire Line
-	19850 9850 20700 9850
-Connection ~ 19850 9850
-Text Label 20700 9250 2    50   ~ 0
-COMPARATOR_A15
-Text Label 20700 9350 2    50   ~ 0
-FLASH_A15
-Text Label 20700 9450 2    50   ~ 0
-SW_A18
-Text Label 20700 9550 2    50   ~ 0
-SW_A17
-Text Label 20700 9650 2    50   ~ 0
-SW_A16
-Text Label 20700 9750 2    50   ~ 0
-SW_A15
-Text Label 20700 9850 2    50   ~ 0
-SW_ROM_EN
-Wire Wire Line
-	20650 11200 20950 11200
-Text Label 20950 11200 2    50   ~ 0
-~ROM-CS
-Wire Wire Line
-	19650 11200 19350 11200
-Wire Wire Line
-	19350 11200 19350 11300
-Wire Wire Line
-	19350 11400 19650 11400
-Wire Wire Line
-	19650 11300 19350 11300
-Connection ~ 19350 11300
-Wire Wire Line
-	19350 11300 19350 11400
-Wire Wire Line
-	19650 12100 19350 12100
-Wire Wire Line
-	19350 12100 19350 12200
-Wire Wire Line
-	19350 12300 19650 12300
-Wire Wire Line
-	19650 12200 19350 12200
-Connection ~ 19350 12200
-Wire Wire Line
-	19350 12200 19350 12300
-$Comp
-L power:GND #PWR0161
-U 1 1 6DF3C3A9
-P 18950 11350
-F 0 "#PWR0161" H 18950 11100 50  0001 C CNN
-F 1 "GND" H 18955 11177 50  0000 C CNN
-F 2 "" H 18950 11350 50  0001 C CNN
-F 3 "" H 18950 11350 50  0001 C CNN
-	1    18950 11350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18950 11350 18950 11300
-$Comp
-L power:GND #PWR0162
-U 1 1 6E02B36E
-P 18950 12250
-F 0 "#PWR0162" H 18950 12000 50  0001 C CNN
-F 1 "GND" H 18955 12077 50  0000 C CNN
-F 2 "" H 18950 12250 50  0001 C CNN
-F 3 "" H 18950 12250 50  0001 C CNN
-	1    18950 12250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18950 12250 18950 12200
-Wire Wire Line
-	19650 13000 19050 13000
-Text Label 19050 13000 0    50   ~ 0
-SW_ROM_EN
-Wire Wire Line
-	18950 11300 19350 11300
-Wire Wire Line
-	18950 12200 19350 12200
-Wire Wire Line
-	19650 11500 19100 11500
-Wire Wire Line
-	19650 11600 19100 11600
-Wire Wire Line
-	19650 11700 19100 11700
-Wire Wire Line
-	19650 11800 19100 11800
-Wire Wire Line
-	19650 11900 19100 11900
-Wire Wire Line
-	19650 12400 19100 12400
-Wire Wire Line
-	19650 12500 19100 12500
-Wire Wire Line
-	19650 12600 19100 12600
-Wire Wire Line
-	19650 12700 19100 12700
-Text Label 19100 11500 0    50   ~ 0
-COMPARATOR_A15
-Text Label 19100 11600 0    50   ~ 0
-A16
-Text Label 19100 11700 0    50   ~ 0
-A17
-Text Label 19100 11800 0    50   ~ 0
-A18
-Text Label 19100 11900 0    50   ~ 0
-A19
-Text Label 19100 12400 0    50   ~ 0
-SW_A15
-Text Label 19100 12500 0    50   ~ 0
-SW_A16
-Text Label 19100 12600 0    50   ~ 0
-SW_A17
-Text Label 19100 12700 0    50   ~ 0
-SW_A18
-$Comp
-L power:VCC #PWR0163
-U 1 1 6F20AE50
-P 18950 12700
-F 0 "#PWR0163" H 18950 12550 50  0001 C CNN
-F 1 "VCC" H 18965 12873 50  0000 C CNN
-F 2 "" H 18950 12700 50  0001 C CNN
-F 3 "" H 18950 12700 50  0001 C CNN
-	1    18950 12700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18950 12700 18950 12800
-Wire Wire Line
-	18950 12800 19650 12800
-Text Notes 21950 14600 0    197  ~ 0
-ROM
-Text Notes 20750 9250 0    50   ~ 0
-32K
-Text Notes 20750 9350 0    50   ~ 0
-64K
-Text Notes 20750 9450 0    50   ~ 0
-A18
-Text Notes 20750 9550 0    50   ~ 0
-A17
-Text Notes 20750 9650 0    50   ~ 0
-A16
-Text Notes 20750 9750 0    50   ~ 0
-A15
-Text Notes 20750 9850 0    50   ~ 0
-ENA
-Wire Notes Line
-	20900 9200 21000 9200
-Wire Notes Line
-	21000 9200 21000 9300
-Wire Notes Line
-	21000 9300 20900 9300
-Text Notes 21050 9300 0    39   ~ 0
-Jumper ONE of these two to\nselect 32K or 64K ROM slot size
-Text Notes 21050 9850 0    39   ~ 0
-Jumper to ENABLE the ROM
-Wire Notes Line
-	20550 5900 20250 5900
-Wire Notes Line
-	20250 5900 20250 7300
-Wire Notes Line
-	20250 7300 20550 7300
-Text Notes 20250 6900 1    50   ~ 0
-32K ROM bank
-Wire Notes Line
-	20200 5900 20050 5900
-Wire Notes Line
-	20050 5900 20050 7400
-Wire Notes Line
-	20050 7400 20400 7400
-Text Notes 20050 6900 1    50   ~ 0
-64K ROM bank
-Text Notes 18700 7150 0    39   ~ 0
-If 32K mode is set, the A15 line will\nnot be used to address the content\nof the ROM (FLASH_A15 will be always\nlow), but will be decoded by the\n'688 to decide whether the ROM gets\nenabled or not.\n\nIn 64K mode, the A15 line will be used\nto address the content of the ROM,\nthe A15 jumper MUST be set, otherwise\nthe decoder will fail to enable the ROM\n(note how the COMPARATOR_A15 line\nwill be pulled low by R1).
-Text Notes 21750 10650 0    39   ~ 0
-A18
-Text Notes 21950 10650 0    39   ~ 0
-A17
-Text Notes 22150 10650 0    39   ~ 0
-A16
-Text Notes 22350 10650 0    39   ~ 0
-A15
-Wire Notes Line
-	22500 10700 21250 10700
-Wire Notes Line
-	21250 10850 22500 10850
-Text Notes 21350 10800 0    50   ~ 0
-A000h
-Wire Notes Line
-	21250 11000 22500 11000
-Wire Notes Line
-	21250 11150 22500 11150
-Wire Notes Line
-	21250 11300 22500 11300
-Wire Notes Line
-	21250 11450 22500 11450
-Wire Notes Line
-	21250 11600 22500 11600
-Wire Notes Line
-	22500 10600 22500 11600
-Wire Notes Line
-	21700 10600 21700 11600
-Wire Notes Line
-	21900 10600 21900 11600
-Wire Notes Line
-	22100 10600 22100 11600
-Wire Notes Line
-	22300 10600 22300 11600
-Text Notes 21350 10950 0    50   ~ 0
-B000h
-Text Notes 21350 11100 0    50   ~ 0
-C000h
-Text Notes 21350 11250 0    50   ~ 0
-D000h
-Text Notes 21350 11400 0    50   ~ 0
-E000h
-Text Notes 21350 11550 0    50   ~ 0
-F000h
-Text Notes 21350 10650 0    39   ~ 0
-64K
-Text Notes 22400 10800 0    50   ~ 0
-X
-Text Notes 22400 10950 0    50   ~ 0
-X
-Text Notes 22400 11100 0    50   ~ 0
-X
-Text Notes 22400 11250 0    50   ~ 0
-X
-Text Notes 22400 11400 0    50   ~ 0
-X
-Text Notes 22400 11550 0    50   ~ 0
-X
-Text Notes 22200 10800 0    50   ~ 0
-X
-Text Notes 21800 10800 0    50   ~ 0
-X
-Text Notes 21800 10950 0    50   ~ 0
-X
-Text Notes 22200 11100 0    50   ~ 0
-X
-Text Notes 22000 11100 0    50   ~ 0
-X
-Text Notes 22000 11250 0    50   ~ 0
-X
-Text Notes 22200 11400 0    50   ~ 0
-X
-Text Notes 21300 10500 0    39   ~ 0
-Remember that the comparator is\nhardwired to check for A19 to be HIGH!
-Text Notes 21750 11800 0    39   ~ 0
-A18
-Text Notes 21950 11800 0    39   ~ 0
-A17
-Text Notes 22150 11800 0    39   ~ 0
-A16
-Text Notes 22350 11800 0    39   ~ 0
-A15
-Wire Notes Line
-	22500 11850 21250 11850
-Wire Notes Line
-	21250 12000 22500 12000
-Text Notes 21350 11950 0    50   ~ 0
-A000h
-Wire Notes Line
-	21250 12150 22500 12150
-Wire Notes Line
-	21250 12300 22500 12300
-Wire Notes Line
-	21250 12450 22500 12450
-Wire Notes Line
-	21250 12600 22500 12600
-Wire Notes Line
-	21250 12750 22500 12750
-Text Notes 21350 12100 0    50   ~ 0
-A800h
-Text Notes 21350 12250 0    50   ~ 0
-B000h
-Text Notes 21350 12400 0    50   ~ 0
-B800h
-Text Notes 21350 12550 0    50   ~ 0
-C000h
-Text Notes 21350 12700 0    50   ~ 0
-C800h
-Text Notes 21350 11800 0    39   ~ 0
-32K
-Text Notes 22400 11950 0    50   ~ 0
-X
-Text Notes 22400 12250 0    50   ~ 0
-X
-Text Notes 22400 12550 0    50   ~ 0
-X
-Text Notes 22200 12700 0    50   ~ 0
-X
-Text Notes 22200 11950 0    50   ~ 0
-X
-Text Notes 21800 11950 0    50   ~ 0
-X
-Text Notes 21800 12100 0    50   ~ 0
-X
-Text Notes 21800 12250 0    50   ~ 0
-X
-Text Notes 21800 12400 0    50   ~ 0
-X
-Text Notes 22200 12550 0    50   ~ 0
-X
-Wire Notes Line
-	21250 12900 22500 12900
-Text Notes 21350 12850 0    50   ~ 0
-D000h
-Wire Notes Line
-	21250 13050 22500 13050
-Wire Notes Line
-	21250 13200 22500 13200
-Wire Notes Line
-	21250 13350 22500 13350
-Wire Notes Line
-	21250 13500 22500 13500
-Wire Notes Line
-	21250 13650 22500 13650
-Text Notes 21350 13000 0    50   ~ 0
-D800h
-Text Notes 21350 13150 0    50   ~ 0
-E000h
-Text Notes 21350 13300 0    50   ~ 0
-E800h
-Text Notes 21350 13450 0    50   ~ 0
-F000h
-Text Notes 21350 13600 0    50   ~ 0
-F800h
-Text Notes 22400 12850 0    50   ~ 0
-X
-Text Notes 22400 13150 0    50   ~ 0
-X
-Text Notes 22400 13450 0    50   ~ 0
-X
-Text Notes 22000 12850 0    50   ~ 0
-X
-Text Notes 22200 13150 0    50   ~ 0
-X
-Text Notes 22200 13300 0    50   ~ 0
-X
-Wire Notes Line
-	22500 11750 22500 13650
-Wire Notes Line
-	21700 11750 21700 13650
-Wire Notes Line
-	21900 11750 21900 13650
-Wire Notes Line
-	22100 11750 22100 13650
-Wire Notes Line
-	22300 11750 22300 13650
-Text Notes 22200 12100 0    50   ~ 0
-X
-Text Notes 22000 12550 0    50   ~ 0
-X
-Text Notes 22000 12700 0    50   ~ 0
-X
-Text Notes 22000 13000 0    50   ~ 0
-X
-Text Notes 18700 14650 0    39   ~ 0
-Logic taken from https://www.lo-tech.co.uk/wiki/Lo-tech_ISA_ROM_Board
 $Comp
 L Memory_RAM:AS6C4008-55PCN U3
 U 1 1 60570A36
@@ -2837,7 +2071,7 @@ L 74xx:74LS245 U12
 U 1 1 6125695B
 P 10600 6100
 F 0 "U12" H 10350 6800 50  0000 C CNN
-F 1 "74ACT245" H 10850 6800 50  0000 C CNN
+F 1 "74LS245" H 10850 6800 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 10600 6100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 10600 6100 50  0001 C CNN
 	1    10600 6100
@@ -3760,7 +2994,7 @@ L 74xx:74LS573 U18
 U 1 1 63B60123
 P 13700 10200
 F 0 "U18" H 13450 10900 50  0000 C CNN
-F 1 "74LS573" H 13900 10900 50  0000 C CNN
+F 1 "74HCT573" H 13900 10900 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 13700 10200 50  0001 C CNN
 F 3 "74xx/74hc573.pdf" H 13700 10200 50  0001 C CNN
 	1    13700 10200
@@ -3869,7 +3103,7 @@ L 74xx:74LS573 U19
 U 1 1 64FD81E0
 P 13700 12500
 F 0 "U19" H 13450 13200 50  0000 C CNN
-F 1 "74LS573" H 13900 13200 50  0000 C CNN
+F 1 "74HCT573" H 13900 13200 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 13700 12500 50  0001 C CNN
 F 3 "74xx/74hc573.pdf" H 13700 12500 50  0001 C CNN
 	1    13700 12500
@@ -3978,7 +3212,7 @@ L 74xx:74LS573 U20
 U 1 1 65084B5C
 P 16050 10200
 F 0 "U20" H 15800 10900 50  0000 C CNN
-F 1 "74LS573" H 16250 10900 50  0000 C CNN
+F 1 "74HCT573" H 16250 10900 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 16050 10200 50  0001 C CNN
 F 3 "74xx/74hc573.pdf" H 16050 10200 50  0001 C CNN
 	1    16050 10200
@@ -4087,7 +3321,7 @@ L 74xx:74LS573 U21
 U 1 1 65085A16
 P 16050 12500
 F 0 "U21" H 15800 13200 50  0000 C CNN
-F 1 "74LS573" H 16250 13200 50  0000 C CNN
+F 1 "74HCT573" H 16250 13200 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 16050 12500 50  0001 C CNN
 F 3 "74xx/74hc573.pdf" H 16050 12500 50  0001 C CNN
 	1    16050 12500
@@ -4203,15 +3437,9 @@ F 3 "~" H 3850 14150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 13850 3850 13850
-Wire Wire Line
 	3850 13850 3850 14050
-Connection ~ 3450 13850
-Wire Wire Line
-	3450 14400 3850 14400
 Wire Wire Line
 	3850 14400 3850 14250
-Connection ~ 3450 14400
 $Comp
 L 74xx:74LS32 U10
 U 2 1 652C094E
@@ -4377,7 +3605,7 @@ L Device:R_Small R3
 U 1 1 6060FD31
 P 15850 8100
 F 0 "R3" V 15950 8050 50  0000 L CNN
-F 1 "1k" V 15750 8050 50  0000 L CNN
+F 1 "470" V 15750 8050 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 15850 8100 50  0001 C CNN
 F 3 "~" H 15850 8100 50  0001 C CNN
 	1    15850 8100
@@ -4468,4 +3696,8 @@ Text Notes 9400 4900 0    236  ~ 0
 Bus Transceiver
 Text Notes 8800 950  0    236  ~ 0
 RAM
+Wire Wire Line
+	2650 13850 3850 13850
+Wire Wire Line
+	2650 14400 3850 14400
 $EndSCHEMATC
