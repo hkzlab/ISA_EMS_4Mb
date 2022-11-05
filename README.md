@@ -109,7 +109,7 @@ If you don't need the expansion ROM feature, you can omit C19, C20, U1, U2, RN1,
 - U9: 74HCT139
 - U10: 74HCT32
 - U12: 74ACT245
-- U17: 74HCT139
+- U17: 74HCT138
 - U18, U19, U20, U21: 74HCT573
 - RN1: res. network, 10k, bussed, 6 pins
 - RN2: res. network, 10k, bussed, 5 pins
