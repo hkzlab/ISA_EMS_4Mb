@@ -123,6 +123,13 @@ If you don't need the expansion ROM feature, you can omit C19, C20, U1, U2, RN1,
 - Remaining caps: 22x 100nF, ceramic
 - ISA bracket: Keystone 9202, plus screws
 
+## Known Issues
+
+I have received reports of this board being unstable when used with some homebrew PC clones, reports included the Xi8088 and NuXT. I have noted similar issues on a Micro8088. On the other hand, an all-CMOS board was tested fine on multiple AT clones I have.
+Replacing the following ICs with ones from the TTL family solved the issue for me: U7, U8, U9, U10, U11, U12.
+
+Note that, for increased stability, I use an ISA terminator with these homebrew computers.
+
 ## Credits
 
 - Thanks to [lo-tech.co.uk](https://www.lo-tech.co.uk/) for having published their schematics
