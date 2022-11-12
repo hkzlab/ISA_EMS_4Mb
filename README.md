@@ -126,9 +126,11 @@ If you don't need the expansion ROM feature, you can omit C19, C20, U1, U2, RN1,
 ## Known Issues
 
 I have received reports of this board being unstable when used with some homebrew PC clones, reports included the Xi8088 and NuXT. I have noted similar issues on a Micro8088. On the other hand, an all-CMOS board was tested fine on multiple AT clones I have.
-Replacing the following ICs with ones from the TTL family solved the issue for me: U7, U8, U9, U10, U11, U12.
+Replacing the following ICs with ones from the TTL family solved the issue for me and for others: U7, U8, U9, U10, U11, U12.
 
 Note that, for increased stability, I use an ISA terminator with these homebrew computers.
+
+Note that the EEPROM U2 has no buffers on the data output. This can cause instability on loaded/noisy buses. Support for the EEPROM will be removed in newer iterations of this board to produce a smaller variant.
 
 ## Credits
 
