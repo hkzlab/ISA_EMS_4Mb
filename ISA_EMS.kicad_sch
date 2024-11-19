@@ -8805,6 +8805,12 @@
 		(uuid "099b4c47-62ce-4ce2-ac2a-c0ffefb107ac")
 	)
 	(junction
+		(at 77.47 365.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09e1bf0a-7e61-490a-bc80-c2d6accbf9dd")
+	)
+	(junction
 		(at 53.34 298.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9117,6 +9123,12 @@
 		(uuid "b7e99a73-2cc8-47a1-b006-3c4cf9dc53a0")
 	)
 	(junction
+		(at 87.63 365.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8f76478-4bc2-42d3-832b-8c9cc9e9e2f2")
+	)
+	(junction
 		(at 132.08 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9165,6 +9177,12 @@
 		(uuid "e04875e2-7f57-4505-b834-35f86a6f7ca9")
 	)
 	(junction
+		(at 77.47 351.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0c2d47c-671c-4aaa-929a-8915c61d5bf6")
+	)
+	(junction
 		(at 149.86 303.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9199,6 +9217,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec6a9469-a40e-4b40-8382-a4c43e995205")
+	)
+	(junction
+		(at 87.63 351.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef890f7b-81ed-400e-9529-04437f9f6cd7")
 	)
 	(junction
 		(at 292.1 152.4)
@@ -9762,7 +9786,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 365.76) (xy 97.79 365.76)
+			(xy 67.31 365.76) (xy 77.47 365.76)
 		)
 		(stroke
 			(width 0)
@@ -9879,6 +9903,16 @@
 			(type default)
 		)
 		(uuid "1456bb1d-50fc-4213-9feb-f61199a751b4")
+	)
+	(wire
+		(pts
+			(xy 87.63 351.79) (xy 97.79 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145ff4a0-bd5e-4b06-86f2-afcc47c5e7d1")
 	)
 	(wire
 		(pts
@@ -10609,6 +10643,16 @@
 			(type default)
 		)
 		(uuid "2aad3d3a-f644-4f6d-ab3a-164c443015dd")
+	)
+	(wire
+		(pts
+			(xy 87.63 361.95) (xy 87.63 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b617dcf-c6b4-498e-bc7c-29c988c5166a")
 	)
 	(wire
 		(pts
@@ -11722,6 +11766,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 365.76) (xy 87.63 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53dbb7c3-11fb-4783-81be-b866016d7fc2")
+	)
+	(wire
+		(pts
 			(xy 289.56 165.1) (xy 289.56 154.94)
 		)
 		(stroke
@@ -12019,6 +12073,16 @@
 			(type default)
 		)
 		(uuid "6029dae5-dcf8-41af-a26d-f7e9df500fd5")
+	)
+	(wire
+		(pts
+			(xy 77.47 351.79) (xy 87.63 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c2a7fd-16a3-4d6e-934a-18eef58ac4f2")
 	)
 	(wire
 		(pts
@@ -12629,6 +12693,16 @@
 			(type default)
 		)
 		(uuid "79238114-dfaa-4ffd-b686-89c89aef7528")
+	)
+	(wire
+		(pts
+			(xy 87.63 365.76) (xy 97.79 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79260e6a-eb34-40c4-a12f-36fa9d863959")
 	)
 	(wire
 		(pts
@@ -13879,6 +13953,16 @@
 			(type default)
 		)
 		(uuid "a453eb62-918f-4aea-a704-1c4bd9134257")
+	)
+	(wire
+		(pts
+			(xy 87.63 351.79) (xy 87.63 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ac1cdc-dad9-4bb1-b1a5-c6161af36d03")
 	)
 	(wire
 		(pts
@@ -16022,6 +16106,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 351.79) (xy 77.47 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4618840-ad86-4d68-8925-118d78cdafaa")
+	)
+	(wire
+		(pts
 			(xy 130.81 262.89) (xy 130.81 255.27)
 		)
 		(stroke
@@ -16542,6 +16636,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 361.95) (xy 77.47 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63ffe5d-e89a-4aac-a7f5-8df08d8d65e2")
+	)
+	(wire
+		(pts
 			(xy 152.4 255.27) (xy 130.81 255.27)
 		)
 		(stroke
@@ -16572,7 +16676,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 351.79) (xy 97.79 351.79)
+			(xy 67.31 351.79) (xy 77.47 351.79)
 		)
 		(stroke
 			(width 0)
@@ -22065,7 +22169,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT139"
+		(property "Value" "74HC139"
 			(at 163.83 354.33 0)
 			(effects
 				(font
@@ -22174,7 +22278,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT139"
+		(property "Value" "74HC139"
 			(at 217.17 130.1496 0)
 			(effects
 				(font
@@ -22901,7 +23005,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT139"
+		(property "Value" "74HC139"
 			(at 234.95 212.6996 0)
 			(effects
 				(font
@@ -29214,7 +29318,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT138"
+		(property "Value" "74HC138"
 			(at 396.24 147.32 0)
 			(effects
 				(font
@@ -31854,7 +31958,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 295.9017 334.01 0)
 			(effects
 				(font
@@ -31958,7 +32062,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT32"
+		(property "Value" "74HC32"
 			(at 487.68 176.53 0)
 			(effects
 				(font
@@ -32128,7 +32232,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 464.8117 156.21 0)
 			(effects
 				(font
@@ -32232,7 +32336,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT32"
+		(property "Value" "74HC32"
 			(at 487.68 158.75 0)
 			(effects
 				(font
@@ -32336,7 +32440,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT32"
+		(property "Value" "74HC32"
 			(at 487.68 194.31 0)
 			(effects
 				(font
@@ -32506,7 +32610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 243.84 354.3299 0)
 			(effects
 				(font
@@ -32659,6 +32763,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 87.63 359.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "613e0ee1-b324-47bc-92d3-f0b1ea6aa5b0")
+		(property "Reference" "C2"
+			(at 89.9668 358.2416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 89.9668 360.553 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 87.63 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ce66818-d01a-424c-bf00-0a536161bb0d")
+		)
+		(pin "2"
+			(uuid "e94ed805-4cbf-4d7f-9907-50d2fb67334d")
+		)
+		(instances
+			(project "ISA_EMS"
+				(path "/4cb7c82f-8265-42f4-96e9-a46155fc8abc"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS08")
 		(at 464.82 146.05 0)
 		(unit 1)
@@ -32676,7 +32849,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 464.8117 139.7 0)
 			(effects
 				(font
@@ -32781,7 +32954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 264.16 354.3299 0)
 			(effects
 				(font
@@ -32886,7 +33059,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 464.8117 191.77 0)
 			(effects
 				(font
@@ -32990,7 +33163,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 510.5317 185.42 0)
 			(effects
 				(font
@@ -33288,7 +33461,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT32"
+		(property "Value" "74HC32"
 			(at 487.68 142.24 0)
 			(effects
 				(font
@@ -33578,7 +33751,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 533.3917 166.37 0)
 			(effects
 				(font
@@ -33730,6 +33903,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 359.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9541b2b-6313-4025-8230-ca20397faa77")
+		(property "Reference" "C1"
+			(at 79.8068 358.2416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 79.8068 360.553 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 77.47 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c2c47e2-baf8-4db6-adba-9bfe06099bed")
+		)
+		(pin "2"
+			(uuid "c856aaca-c4f0-43d3-9305-4ed75eb2865c")
+		)
+		(instances
+			(project "ISA_EMS"
+				(path "/4cb7c82f-8265-42f4-96e9-a46155fc8abc"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ISA_EMS-rescue:VCC-power")
 		(at 250.19 246.38 0)
 		(unit 1)
@@ -33812,7 +34054,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 511.8017 149.86 0)
 			(effects
 				(font
@@ -33982,7 +34224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HCT32"
+		(property "Value" "74HC32"
 			(at 222.25 354.3299 0)
 			(effects
 				(font
@@ -34087,7 +34329,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS08"
+		(property "Value" "74HC08"
 			(at 464.8117 173.99 0)
 			(effects
 				(font
